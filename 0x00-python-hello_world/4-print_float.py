@@ -1,5 +1,3 @@
 #!/usr/bin/python3
 number = 3.14159
-formatted_float = "{:.2f}".format(number)
-msg = f'Float: {formatted_float}'
-print(msg)
+print(f"Float: {number:.2F}")
