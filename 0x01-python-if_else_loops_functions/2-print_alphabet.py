@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-alphabets = "abcdefghijklmnopqrstuvwxyz"
-print(alphabets.lower())
+for i in range(0, 26):
+    print("{}".format(chr(97 + i)), end="")
