@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for a in range(ord('a'), od('z') + 1):
-    if chr(a) != 'e' and chr(a) != 'q':
-        print("{:c}".format(a), end ='')
+for i in range(0, 26):
+    if(i != 4 and i != 16):
+        print("{}".format(chr(97 + i)), end="")
